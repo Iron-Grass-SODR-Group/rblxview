@@ -1,6 +1,7 @@
 #pragma once
 
 #include <QtWidgets/QMainWindow>
+#include <QtWidgets/QMessageBox>
 #include "ui_rblxview.h"
 
 class rblxview : public QMainWindow
@@ -10,6 +11,9 @@ class rblxview : public QMainWindow
 public:
     rblxview(QWidget *parent = nullptr);
     ~rblxview();
+
+public slots:
+    void onAboutbox();
 
 private:
     Ui::rblxviewClass ui;
