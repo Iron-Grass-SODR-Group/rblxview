@@ -41,8 +41,4 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
-  <ItemGroup>
-    <Text Include="README.md" />
-    <Text Include="COPYING" />
-  </ItemGroup>
 </Project>
